@@ -17,6 +17,7 @@ _putchar(' ');
 _putchar(92);
 _putchar('\n');
 }
-} else
+}
+else
 _putchar('\n');
 }
