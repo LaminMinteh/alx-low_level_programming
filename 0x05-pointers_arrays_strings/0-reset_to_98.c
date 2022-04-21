@@ -1,5 +1,3 @@
-#include "main.h"
-
 /**
  * rest_to_98 - main function
  *
