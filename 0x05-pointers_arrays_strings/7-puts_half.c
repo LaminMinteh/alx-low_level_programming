@@ -3,7 +3,7 @@
  *     @str: The string to be printed.
  */
 
- void puts_half(char *str)
+void puts_half(char *str)
 {
 int len, n, i;
 len = 0;
