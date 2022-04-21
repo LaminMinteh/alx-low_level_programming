@@ -1,13 +1,12 @@
+#include "main.h"
+
 /**
- * rest_to_98 - main function
+ * reset_to_98 - main function
  *
- * @n: Pointer to int
- *
- * Return: 0 Successful
+ * @n: Pointer to int.
  */
 
-void rest_to_98(int *n)
+void reset_to_98(int *n)
 {
-	*n = 98;
+*n = 98;
 }
-
