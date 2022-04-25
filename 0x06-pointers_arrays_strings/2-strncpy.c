@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * _strcmp - compares two strings
+ * _strncpy - copy src into dest.
  * @dest: first string.
+ *@n: the number of bytes to use from src.
  * @src: second string.
  * Return: string.
  */
