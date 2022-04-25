@@ -2,6 +2,8 @@
 
 /**
  * _strcat - concatenates two strings
+ * @src: source.
+ * @dest: destination.
  * Return: the pointer to dest.
  */
 
