@@ -2,21 +2,30 @@
 
 /**
  * _strcmp - compares two strings
- * @s1: first string.
- * @s2: second string.
- * Return: 0 if s1 and s2 are equals,
- * another number if not.
+ * @dest: first string.
+ * @src: second string.
+ * Return: string.
  */
 
-int _strcmp(char *s1, char *s2)
+char *_strncpy(char *dest, char *src, int n)
 {
-int i = 0, op = 0;
-while (op == 0)
+int i = 0, k = 0;
+while (n > k)
 {
-if ((*(s1 + i) == '\0') && (*(s2 + i) == '\0'))
-break;
-op = *(s1 + i) - *(s2 + i);
+if (src[k] == '\0')
+{
+for (; k < n; k++)
+{
+dest[i] = '\0';
 i++;
 }
-return (op);
+}
+else
+{
+dest[i] = src[k];
+k++;
+i++;
+}
+}
+return (dest);
 }
