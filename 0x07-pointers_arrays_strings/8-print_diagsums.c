@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
+ * @a: input square array
+ * print_diagsums - prints sum of #'s in diagnols of square
  * @size: size of one dimension in array
- * @a: input square arrayprint_diagsums - prints sum of #'s in diagnols of square
  * Return: 0
  */
 
