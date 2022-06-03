@@ -24,7 +24,7 @@ return (0);
 buf = malloc(sizeof(char) * (letter));
 if (!buf)
 return (0);
-nrd = read(f, buf, letters);
+nrd = read(f, buf, letter);
 nwr = write(STDOUT_FILENO, buf, nrd);
 close(f);
 free(buf);
