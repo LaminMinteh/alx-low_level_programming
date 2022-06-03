@@ -25,7 +25,7 @@ if (!text_content)
 text_content = "";
 
 for (letter = 0; text_content[letter]; letter++)
-rwr = write(f, text_content, lettes);
+rwr = write(f, text_content, letter);
 if (rwr == -1)
 return (-1);
 close(f);
